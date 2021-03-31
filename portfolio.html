@@ -16,7 +16,7 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- HEADER -->
@@ -62,24 +62,23 @@
        <div class="container">
           <h1 class="visually-hidden">Галерея работ</h1>
           <!-- Filters -->
-            <ul class="filter-list list">
-              <li class="filter-item">
-                <button class="filter-button" type="button">Все</button>
-              </li>
-              <li class="filter-item">
-                <button class="filter-button" type="button">Веб-сайты</button>
-              </li>
-              <li class="filter-item">
-                <button class="filter-button" type="button">Приложения</button>
-              </li>
-              <li class="filter-item">
-                <button class="filter-button" type="button">Дизайн</button>
-              </li>
-              <li class="filter-item">
-                <button class="filter-button" type="button">Маркетинг</button>
-              </li>
-            </ul>
-         
+          <ul class="filter-list list">
+            <li class="filter-item">
+              <button class="filter-button" type="button">Все</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Веб-сайты</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Приложения</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Дизайн</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Маркетинг</button>
+            </li>
+          </ul>
           <!-- End Filters -->
           <ul class="gallery-list list">
             <li class="gallery-card">
@@ -126,17 +125,17 @@
             </li>
             <li class="gallery-card">
               <a class="card-link link" href="">
-               <div class="card-thumb">
+                <div class="card-thumb">
                   <img src="./images/gallery/img-3.jpeg" alt="маркетинг проект прайм" width="370" height="294" />
                   <p class="card-thumb-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                     платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-               </div>
+                </div>
                 <div class="card-content">
                   <h2 class="gallery-card-title">
                     Проект<span lang="en"> Prime</span>
                   </h2>
                   <p class="gallery-card-description">Маркетинг</p>
-                </div>
+                  </div>
               </a>
             </li>
             <li class="gallery-card">
@@ -155,19 +154,19 @@
               </a>
             </li>
             <li class="gallery-card">
-              <a class="card-link link" href="">
-               <div class="card-thumb">
-                  <img src="./images/gallery/img-5.jpeg" alt="веб-сайт инспирейшн" width="370" height="294" />
-                  <p class="card-thumb-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
-                    платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-               </div>
-                <div class="card-content">
-                  <h2 class="gallery-card-title" lang="en">
-                    Inspiration has no Borders
-                  </h2>
-                  <p class="gallery-card-description">Веб-сайт</p>
-                  </a>
-                </div>
+                <a class="card-link link" href="">
+                  <div class="card-thumb">
+                      <img src="./images/gallery/img-5.jpeg" alt="веб-сайт инспирейшн" width="370" height="294" />
+                      <p class="card-thumb-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                        платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="gallery-card-title" lang="en">
+                      Inspiration has no Borders
+                    </h2>
+                    <p class="gallery-card-description">Веб-сайт</p>
+                  </div>
+                </a>
             </li>
             <li class="gallery-card">
               <a class="card-link link" href="">
@@ -272,6 +271,22 @@
             </a>
           </li>
         </ul>
+      </div>
+      <div class="signup">
+        <b class="join">Подпишитесь на рассылку</b>
+        <div class="signup-form-wrapper">
+          <form class="signup-form" action="#">
+            <label class="signup-form-field">
+              <input class="signup-form-input" type="email" name="user-email" placeholder="E-mail" required>
+            </label>
+            <button class="signup-form-btn" type="submit">
+              Подписаться
+              <svg class="btn-icon" width="24px" height="24px">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </footer>

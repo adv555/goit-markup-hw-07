@@ -1,0 +1,17 @@
+
+.nav-list .current {
+  position: relative;
+  color: var(--accent-color);
+}
+
+.current::after {
+  position: absolute;
+  bottom: -33px;
+
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}

@@ -1,0 +1,73 @@
+.nav .logo {
+  margin-right: 93px;
+}
+
+.logo-black {
+  color: var(--black-color);
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+
+  background-color: var(--white-color);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav,
+.nav-list,
+.contact-list {
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link {
+  color: var(--primary-text-color);
+  transition: color 250ms var(--cubik), fill 250ms var(--cubik);
+}
+
+.nav-list .nav-item + .nav-item,
+.contact-list .contact-item + .contact-item {
+  margin-left: 50px;
+}
+
+.contact-list {
+  margin-left: auto;
+}
+
+.contact-item {
+  display: flex;
+  text-align: center;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.contact-link:hover .contact-icon,
+.contact-link:focus .contact-icon {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--secondary-text-color);
+  transition: color 250ms var(--cubik), fill 250ms var(--cubik);
+}
+.contact-icon {
+  margin-right: 10px;
+  align-items: center;
+  fill: currentColor;
+  transition: color 250ms var(--cubik), fill 250ms var(--cubik);
+}

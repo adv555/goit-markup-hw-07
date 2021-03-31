@@ -1,0 +1,40 @@
+.customers {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
+
+.customer-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.customer-list .customer-card + .customer-card {
+  margin-left: var(--card-gap);
+}
+
+.customer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  transition: border-color 250ms var(--cubik);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+
+.icon-logo {
+  fill: var(--icon-color);
+  transition: fill 250ms var(--cubik);
+
+  .customer-link:hover &,
+  .customer-link:focus & {
+    fill: var(--accent-color);
+  }
+}
