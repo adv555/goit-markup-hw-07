@@ -2,30 +2,11 @@
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
-  
   background: var(--body-bg-dark);
 }
 
-.footer .container {
-  display: flex;
-  align-items: baseline;
-}
-.footer-contact-list {
-  margin-bottom: -9px;
-}
-
-.footer-contact-item {
-  margin-bottom: 9px;
-}
-
-.logo-white {
-  display: inline-block;
-  margin-bottom: 20px;
-
-  color: var(--white-color);
-}
 .address {
-  /* font-style: normal; */
+  margin-top: 20px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -34,11 +15,17 @@
 .address-link {
   color: var(--white-color);
 }
+
+.footer-contact-list {
+  margin-bottom: -9px;
+}
+
+.footer-contact-item {
+  margin-bottom: 9px;
+}
+
 .footer-contact-link {
   color: rgba(255, 255, 255, 0.6);
-}
-.social {
-  margin-left: 70px;
 }
 
 .join {
@@ -51,7 +38,12 @@
   text-transform: uppercase;
   color: var(--white-color);
 }
+
+.social {
+  margin-left: 70px;
+}
+
 .footer-icon {
   fill: var(--white-color);
 }
-/* Footer-form */
+/* signup-form-in-components */

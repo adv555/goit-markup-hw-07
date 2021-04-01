@@ -7,10 +7,10 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.customer-list .customer-card + .customer-card {
-  margin-left: var(--card-gap);
+  
+  .customer-card + .customer-card {
+    margin-left: var(--card-gap);
+  }
 }
 
 .customer-link {

@@ -4,15 +4,16 @@
 @import './base/common';
 @import './base/container';
 
+@import './components/logo';
 @import './components/modal-btn';
+@import './components/current';
 @import './components/section-title';
 @import './components/social-list';
-@import './components/logo';
-@import './components/current';
-@import './components/backdrop';
+@import './components/filter';
 @import './components/modal';
 @import './components/modal-form';
-@import './components/filter';
+@import './components/backdrop';
+@import './components/signup-form';
 
 @import './layout/header';
 @import './layout/hero';
@@ -21,7 +22,6 @@
 @import './layout/team';
 @import './layout/customers';
 @import './layout/footer';
-@import './layout/signup-form';
 @import './layout/gallery';
 
 
