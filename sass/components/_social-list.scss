@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-.social-list-item {
+.social-list__item {
   display: flex;
 
   &:not(:last-child) {
@@ -11,7 +11,7 @@
   }
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,13 +28,14 @@
   }
 }
 
-.social-list-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
+  fill: var(--white-color);
   transition: fill 250ms var(--cubik);
   
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: var(--white-color);
   }
 }

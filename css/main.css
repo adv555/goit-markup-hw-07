@@ -97,11 +97,11 @@ img {
   color: var(--accent-color);
 }
 
-.logo .logo-black {
+.logo_theme_light {
   color: var(--black-color);
 }
 
-.logo .logo-white {
+.logo_theme_dark {
   color: var(--white-color);
 }
 
@@ -118,7 +118,7 @@ img {
   color: var(--white-color);
 }
 
-.nav-list .current {
+.menu .current {
   position: relative;
   color: var(--accent-color);
 }
@@ -148,15 +148,15 @@ img {
   justify-content: space-between;
 }
 
-.social-list-item {
+.social-list__item {
   display: flex;
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,18 +168,19 @@ img {
   transition: background-color 250ms var(--cubik);
 }
 
-.social-list-link:hover, .social-list-link:focus {
+.social-list__link:hover, .social-list__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-list-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
+  fill: var(--white-color);
   transition: fill 250ms var(--cubik);
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
   fill: var(--white-color);
 }
 
@@ -494,7 +495,7 @@ img {
   margin-right: 93px;
 }
 
-.nav-list {
+.menu {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -503,16 +504,16 @@ img {
   letter-spacing: 0.02em;
 }
 
-.nav-list .nav-item + .nav-item {
+.menu .menu__item + .menu__item {
   margin-left: 50px;
 }
 
-.nav-link {
+.menu__link {
   color: var(--primary-text-color);
   transition: color 250ms var(--cubik), fill 250ms var(--cubik);
 }
 
-.nav-link:hover, .nav-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -527,36 +528,36 @@ img {
   letter-spacing: 0.02em;
 }
 
-.contact-list .contact-item + .contact-item {
+.contact-list .contact-list__item + .contact-list__item {
   margin-left: 50px;
 }
 
-.contact-item {
+.contact-list__item {
   display: flex;
   text-align: center;
 }
 
-.contact-link {
+.contact-list__link {
   display: inline-flex;
   align-items: center;
   color: var(--secondary-text-color);
   transition: color 250ms var(--cubik), fill 250ms var(--cubik);
 }
 
-.contact-link:hover, .contact-link:focus {
+.contact-list__link:hover, .contact-list__link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.contact-icon {
+.contact-list__icon {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
   transition: color 250ms var(--cubik), fill 250ms var(--cubik);
 }
 
-.contact-link:hover .contact-icon,
-.contact-link:focus .contact-icon {
+.contact-list__link:hover .contact-list__icon,
+.contact-list__link:focus .contact-list__icon {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -572,7 +573,7 @@ img {
   max-width: 1600px;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -595,13 +596,13 @@ img {
   margin-top: calc(-1 * var(--card-gap));
 }
 
-.about-item {
+.about-list__item {
   flex-basis: calc(100% / 4 - var(--card-gap));
   margin-left: var(--card-gap);
   margin-top: var(--card-gap);
 }
 
-.about-item-icon {
+.about-list__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -612,7 +613,7 @@ img {
   border-radius: 4px;
 }
 
-.about-item-title {
+.about-list__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -622,7 +623,7 @@ img {
   color: var(--primary-text-color);
 }
 
-.about-item-description {
+.about-list__description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -641,14 +642,14 @@ img {
   margin-top: calc(-1 * var(--card-gap));
 }
 
-.services-item {
+.services-list__item {
   position: relative;
   flex-basis: calc(100% / 3 - var(--card-gap));
   margin-left: var(--card-gap);
   margin-top: var(--card-gap);
 }
 
-.services-item-overlay {
+.services-list__item-overlay {
   position: absolute;
   display: flex;
   align-items: center;
@@ -679,7 +680,7 @@ img {
   margin-top: calc(-1 * var(--card-gap));
 }
 
-.team-card {
+.team-list__card {
   flex-basis: calc(100% / 4 - var(--card-gap));
   margin-left: var(--card-gap);
   margin-top: var(--card-gap);
@@ -693,25 +694,25 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-card-content {
+.team-list__card-content {
   padding-top: var(--card-gap);
   padding-bottom: var(--card-gap);
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.team-title {
+.team-list__title {
   margin-bottom: 10px;
   font-weight: 500;
   color: var(--primary-text-color);
 }
 
-.team-description {
+.team-list__description {
   margin-bottom: 16px;
   color: var(--secondary-text-color);
 }
 
-.team-icon {
+.team-list__icon {
   fill: var(--icon-color);
 }
 
@@ -726,11 +727,11 @@ img {
   align-items: center;
 }
 
-.customer-list .customer-card + .customer-card {
+.customer-list__card + .customer-list__card {
   margin-left: var(--card-gap);
 }
 
-.customer-link {
+.customer-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -741,17 +742,17 @@ img {
   transition: border-color 250ms var(--cubik);
 }
 
-.customer-link:hover, .customer-link:focus {
+.customer-list__link:hover, .customer-list__link:focus {
   border-color: var(--accent-color);
 }
 
-.icon-logo {
+.customer-list__logo {
   fill: var(--icon-color);
   transition: fill 250ms var(--cubik);
 }
 
-.customer-link:hover .icon-logo,
-.customer-link:focus .icon-logo {
+.customer-list__link:hover .customer-list__logo,
+.customer-list__link:focus .customer-list__logo {
   fill: var(--accent-color);
 }
 
@@ -770,20 +771,24 @@ img {
   letter-spacing: 0.03em;
 }
 
-.address-link {
-  color: var(--white-color);
-}
-
-.footer-contact-list {
+.address-list {
   margin-bottom: -9px;
 }
 
-.footer-contact-item {
+.address-list__item {
   margin-bottom: 9px;
 }
 
-.footer-contact-link {
+.address-list__link {
+  color: var(--white-color);
+}
+
+.address-list__contact-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.social {
+  margin-left: 70px;
 }
 
 .join {
@@ -797,15 +802,7 @@ img {
   color: var(--white-color);
 }
 
-.social {
-  margin-left: 70px;
-}
-
-.footer-icon {
-  fill: var(--white-color);
-}
-
-/* signup-form-in-components */
+/* signup-form in components */
 .gallery {
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);

@@ -10,13 +10,13 @@
   margin-top: calc(-1 * var(--card-gap));
 }
 
-.about-item {
+.about-list__item {
   flex-basis: calc(100% / 4 - var(--card-gap));
   margin-left: var(--card-gap);
   margin-top: var(--card-gap);
 }
 
-.about-item-icon {
+.about-list__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@
   border-radius: 4px;
 }
 
-.about-item-title {
+.about-list__title {
   margin-bottom: 10px;
 
   @include font (700, 14px, 16px);
@@ -40,7 +40,7 @@
   color: var(--primary-text-color);
 }
 
-.about-item-description {
+.about-list__description {
 
   @include font (400, 14px, 24px);
   // font-size: 14px;

@@ -8,12 +8,12 @@
   flex-wrap: wrap;
   align-items: center;
   
-  .customer-card + .customer-card {
+  &__card + &__card {
     margin-left: var(--card-gap);
   }
 }
 
-.customer-link {
+.customer-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,12 +29,12 @@
   }
 }
 
-.icon-logo {
+.customer-list__logo {
   fill: var(--icon-color);
   transition: fill 250ms var(--cubik);
 
-  .customer-link:hover &,
-  .customer-link:focus & {
+  .customer-list__link:hover &,
+  .customer-list__link:focus & {
     fill: var(--accent-color);
   }
 }

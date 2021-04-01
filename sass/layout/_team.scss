@@ -11,7 +11,7 @@
   margin-top: calc(-1 * var(--card-gap));
 }
 
-.team-card {
+.team-list__card {
   flex-basis: calc(100% / 4 - var(--card-gap));
   margin-left: var(--card-gap);
   margin-top: var(--card-gap);
@@ -28,23 +28,24 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-card-content {
+.team-list__card-content {
   padding-top: var(--card-gap);
   padding-bottom: var(--card-gap);
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.team-title {
+.team-list__title {
   margin-bottom: 10px;
   font-weight: 500;
   color: var(--primary-text-color);
 }
 
-.team-description {
+.team-list__description {
   margin-bottom: 16px;
   color: var(--secondary-text-color);
 }
-.team-icon {
+
+.team-list__icon {
   fill: var(--icon-color);
 }
