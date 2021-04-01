@@ -113,7 +113,7 @@ img {
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--white-color);
 }
@@ -138,9 +138,9 @@ img {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .social-list {
@@ -203,7 +203,7 @@ img {
   border: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--body-bg-accent);
@@ -263,8 +263,8 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 15px;
   color: var(--primary-text-color);
 }
@@ -277,8 +277,9 @@ img {
 
 .modal-form-field {
   margin-bottom: 10px;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
 }
@@ -293,7 +294,6 @@ img {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  /* box-sizing: border-box; */
   border-radius: 4px;
   padding-left: 42px;
   transition: border-color 250ms var(--cubik);
@@ -333,8 +333,9 @@ img {
 }
 
 .modal-form-message::placeholder {
+  font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -342,6 +343,7 @@ img {
 .modal-form-check-desc {
   display: flex;
   align-items: center;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -383,7 +385,7 @@ img {
   margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--white-color);
   background: var(--accent-color);
@@ -417,6 +419,7 @@ img {
   min-width: 358px;
   margin-right: 12px;
   padding-left: 16px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -435,6 +438,7 @@ img {
 }
 
 .signup-form-input::placeholder {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -449,9 +453,9 @@ img {
   height: 50px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
+  line-height: 1.88;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--white-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -573,8 +577,8 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
 }
@@ -610,18 +614,19 @@ img {
 
 .about-item-title {
   margin-bottom: 10px;
-  font-size: 14px;
-  letter-spacing: 0.03em;
   font-weight: 700;
-  line-height: 1.17;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
 
 .about-item-description {
+  font-weight: 400;
   font-size: 14px;
-  letter-spacing: 0.03em;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -655,7 +660,6 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  /* text-align: center; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -679,10 +683,11 @@ img {
   flex-basis: calc(100% / 4 - var(--card-gap));
   margin-left: var(--card-gap);
   margin-top: var(--card-gap);
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -759,6 +764,7 @@ img {
 
 .address {
   margin-top: 20px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -786,7 +792,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 00.03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
 }
@@ -836,6 +842,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
@@ -867,8 +874,9 @@ img {
 }
 
 .gallery-card-description {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }

@@ -39,11 +39,13 @@
   transform: scale(1.5);
 }
 .modal-form-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+@include font (700, 20px, 23px);
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: 1.15;
+  // letter-spacing: 0.03em;
+
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 15px;
 
   color: var(--primary-text-color);
