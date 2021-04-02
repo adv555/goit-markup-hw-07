@@ -6,10 +6,5 @@
   background-color: var(--accent-color);
 
   @include font (700, 16px, 30px, 0.06em);
-  // font-weight: 700;
-  // font-size: 16px;
-  // line-height: 1.87;
-  // letter-spacing: 0.06em;
-
   color: var(--white-color);
 }

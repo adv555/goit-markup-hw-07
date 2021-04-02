@@ -1,0 +1,13 @@
+
+.cta-join {
+  display: block;
+  margin-bottom: 20px;
+  
+@include font (700, 14px, 16px);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}

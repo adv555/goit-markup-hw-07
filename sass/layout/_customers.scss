@@ -11,30 +11,31 @@
   &__card + &__card {
     margin-left: var(--card-gap);
   }
-}
-
-.customer-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 90px;
-  border: 1px solid var(--icon-color);
-  border-radius: 4px;
-  transition: border-color 250ms var(--cubik);
-
-  &:hover,
-  &:focus {
-    border-color: var(--accent-color);
+  
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    transition: border-color 250ms var(--cubik);
+  
+    &:hover,
+    &:focus {
+      border-color: var(--accent-color);
+    }
+  }
+  
+  &__logo {
+    fill: var(--icon-color);
+    transition: fill 250ms var(--cubik);
+  
+    .customer-list__link:hover &,
+    .customer-list__link:focus & {
+      fill: var(--accent-color);
+    }
   }
 }
 
-.customer-list__logo {
-  fill: var(--icon-color);
-  transition: fill 250ms var(--cubik);
-
-  .customer-list__link:hover &,
-  .customer-list__link:focus & {
-    fill: var(--accent-color);
-  }
-}

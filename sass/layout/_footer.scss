@@ -7,48 +7,33 @@
 
 .address {
   margin-top: 20px;
-
   @include font (400, 14px, 24px);
-  // font-size: 14px;
-  // line-height: 1.71;
-  // letter-spacing: 0.03em;
 }
 
 .address-list {
   margin-bottom: -9px;
-}
-
-.address-list__item {
-  margin-bottom: 9px;
-}
-
-.address-list__link {
-  color: var(--white-color);
-}
-
-.address-list__contact-link {
-  color: rgba(255, 255, 255, 0.6);
+  
+  &__item {
+    margin-bottom: 9px;
+  }
+  
+  &__link {
+    color: var(--white-color);
+  }
+  
+  &__contact-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .social {
   margin-left: 70px;
 }
+/* call-to-action in components */
+/* social-list in components */
 
-.join {
-  display: block;
-  margin-bottom: 20px;
-  
-@include font (700, 14px, 16px);
-  // font-weight: 700;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white-color);
+.signup {
+  margin-left: 93px;
 }
-
-
-// .footer-icon {
-//   fill: var(--white-color);
-// }
+/* call-to-action in components */
 /* signup-form in components */
